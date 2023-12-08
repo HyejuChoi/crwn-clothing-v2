@@ -46,7 +46,6 @@ export const CartContext = createContext({
     cartCount: 0,
     setCartCount: () => {},
     cartTotal: 0,
-    setCartTotal: () => {},
 })
 
 export const CartProvider = ({children}) => {
